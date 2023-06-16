@@ -1,5 +1,4 @@
 pre.highlight {
-  background-color: #efefef;
   padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
@@ -7,11 +6,14 @@ pre.highlight {
   box-shadow: 3px 3px rgba(0,0,0,0.1);
   margin: 20px 0 20px 0;
   overflow: auto;
+  // background-color: #efefef;
 }
 
 code {
-  font-family:'Bitstream Vera Sans Mono','Courier', monospace;
-  font-size: medium;
+  font-family: $font-code;
+  font-size: $font-size-small;
+  line-height: $line-height-code;
+  // background-color: ;
 }
 
 .highlight .c { color: #586E75 } /* Comment */

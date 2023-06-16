@@ -29,6 +29,7 @@ $font-size-base: px-to-em(18px);
 $font-size-small: px-to-em(12px);
 
 $line-height-base: px-to-em(26.7px);
+$line-height-code: px-to-em(24px);
 
 // Mobile breakpoints
 @mixin mobile {

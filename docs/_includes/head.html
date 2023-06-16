@@ -1,0 +1,9 @@
+<head>
+  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.name }} – {{ site.description }}{% endif %}</title>
+
+  {% include meta.html %}
+  {% include fonts.html %}
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+  <link rel="stylesheet" type="text/css" href="{{ site.baseurl }}/style.css" />
+</head>

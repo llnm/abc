@@ -1,19 +1,28 @@
 pre.highlight {
-  padding: 7px 7px 7px 10px;
   border: 1px solid #ddd;
   -moz-box-shadow: 3px 3px rgba(0,0,0,0.1);
   -webkit-box-shadow: 3px 3px rgba(0,0,0,0.1);
   box-shadow: 3px 3px rgba(0,0,0,0.1);
   margin: 20px 0 20px 0;
   overflow: auto;
-  // background-color: #efefef;
 }
 
-code {
-  font-family: $font-code;
-  font-size: $font-size-small;
-  line-height: $line-height-code;
-  // background-color: ;
+div {
+  &[class*="language-"] {
+    code {
+      font-family: $font-code;
+      font-size: $font-size-small;
+      line-height: $line-height-code;
+    }
+  }
+  &[class*="language-plaintext"] {
+    code {
+      font-family: $font-code;
+      font-size: $font-size-small;
+      line-height: $line-height-code;
+      white-space:pre-wrap;
+    }
+  }
 }
 
 .highlight .c { color: #586E75 } /* Comment */

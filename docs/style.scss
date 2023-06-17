@@ -6,6 +6,7 @@
 //
 
 @import "reset";
+@import "open-color";
 @import "variables";
 // Syntax highlighting @import is at the bottom of this file
 
@@ -109,8 +110,12 @@ em, i {
   font-style: italic;
 }
 
-strong, b {
+b {
   font-weight: bold;
+}
+
+strong {
+  font-style: normal;
 }
 
 img {
@@ -260,12 +265,11 @@ nav {
 
 .post {
   blockquote {
-    margin: 1.8em .8em;
-    border-left: 2px solid $gray;
+    margin: 1.0em .8em;
+    border-left: 2px solid $oc-gray-4;
     padding: 0.1em 1em;
-    color: $gray;
-    font-size: 22px;
-    font-style: italic;
+    color: $oc-gray-7;
+    background-color: $oc-gray-1;
   }
 
   .comments {

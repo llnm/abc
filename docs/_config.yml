@@ -21,8 +21,9 @@ url: https://llnm.github.io
 twitter_username: daeye0n
 github_username:  daeyeon
 
-# URL of your avatar or profile pic (you could use your GitHub profile pic)
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
+permalink: /:categories/:title/
+paginate: 5
 
 # Build settings
 # markdown:
@@ -43,5 +44,3 @@ exclude:
   - node_modules
   - vendor/
   - "*.sh"
-
-paginate: 2

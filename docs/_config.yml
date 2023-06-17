@@ -25,10 +25,14 @@ github_username:  daeyeon
 avatar: https://raw.githubusercontent.com/barryclark/jekyll-now/master/images/jekyll-logo.png
 
 # Build settings
-markdown: kramdown
-theme: minima
+# markdown:
+# theme:
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+# Ensure plugins work on github page also
+safe: true
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -39,3 +43,5 @@ exclude:
   - node_modules
   - vendor/
   - "*.sh"
+
+paginate: 2
